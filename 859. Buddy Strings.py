@@ -1,8 +1,7 @@
 class Solution:
     def buddyStrings(self, A: str, B: str) -> bool:
         res = False
-        if len(A) != len(B):
-            return False
+        if len(A) != len(B) : return False
         if A == B:
             if len(A) - len(set(A)) != 0:
                 res = True
