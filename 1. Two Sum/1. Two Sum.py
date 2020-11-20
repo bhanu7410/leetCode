@@ -5,3 +5,4 @@ class Solution:
             if nums[i] in buff_dict:
                 return [buff_dict[nums[i]], i]
             buff_dict[target - nums[i]] = i
+            #hi
